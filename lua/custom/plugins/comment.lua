@@ -2,12 +2,13 @@
 
 return {
   'numToStr/Comment.nvim',
+  lazy = false,
   opts = {
     toggler = {
-      line = '<C-/>', -- Set keybind Ctrl / to toggle comments
+      line = '<C-_>', -- Set keybind Ctrl / to toggle comments
     },
     opleader = {
-      line = '<C-/>', -- enables visual mode toggling
+      line = '<C-_>', -- enables visual mode toggling
     },
   },
 }
