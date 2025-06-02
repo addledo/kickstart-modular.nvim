@@ -1,5 +1,5 @@
 require('lazy').setup({
-  --'NMAC427/guess-indent.nvim', -- Detect tabstop and shiftwidth automatically
+  --'NMAC427/guess-indent.nvim', -- Moved to custom plugins
 
   require 'kickstart/plugins/gitsigns',
 
